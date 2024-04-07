@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Tailwind landing page",
     "scripts": {
-        "tailwind": "echo \"Error: no test specified\" && exit 1"
+        "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/style.css --watch"
     },
     "author": "Subhranil Chakraborty",
     "license": "MIT",
